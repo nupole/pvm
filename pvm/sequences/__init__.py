@@ -1,1 +1,2 @@
 from pvm.sequences.transaction_sequence import TransactionSequence
+from pvm.sequences.data_sequence import IndexedRandomWordSequence
