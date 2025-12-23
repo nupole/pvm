@@ -1,0 +1,1 @@
+from pvm.scoreboards.scoreboard import Scoreboard
