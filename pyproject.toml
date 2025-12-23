@@ -18,4 +18,5 @@ classifiers = [
     'Framework :: cocotb'
 ]
 requires-python = '>=3.13'
-dependencies = ['cocotb == 2.0.1']
+dependencies = ['cocotb == 2.0.1',
+                'pyuvm == 4.0.1']
