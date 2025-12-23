@@ -1,0 +1,21 @@
+[build-system]
+requires = ['setuptools >= 78.1.1']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'pvm'
+version = '0.0.0'
+license = 'MIT'
+license-files = ['LICENSE']
+authors = [
+    {name = 'Nickolas Upole', email = 'nick.at.night@icloud.com'}
+]
+urls = {'Homepage' = 'https://github.com/nupole/pvm'}
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Operating System :: OS Independent',
+    'Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)',
+    'Framework :: cocotb'
+]
+requires-python = '>=3.13'
+dependencies = ['cocotb == 2.0.1']
