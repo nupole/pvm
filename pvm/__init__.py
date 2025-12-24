@@ -3,5 +3,6 @@ from pvm import interfaces
 from pvm import drivers
 from pvm import monitors
 from pvm import decoders
+from pvm import encoders
 from pvm import models
 from pvm import scoreboards
