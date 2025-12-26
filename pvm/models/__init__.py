@@ -1,3 +1,4 @@
 from pvm.models.decoder_model import DecoderModel
 from pvm.models.pcie_transaction_layer_packet_header_common_fmt_decoder_model import PcieTransactionLayerPacketHeaderCommonFmtDecoderModel
 from pvm.models.encoder_model import EncoderModel
+from pvm.models.pcie_transaction_layer_packet_header_common_fmt_encoder_model import PcieTransactionLayerPacketHeaderCommonFmtEncoderModel
