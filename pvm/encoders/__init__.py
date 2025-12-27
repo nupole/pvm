@@ -1,2 +1,3 @@
 from pvm.encoders.encoder import Encoder
 from pvm.encoders.pcie_transaction_layer_packet_header_common_fmt_encoder import PcieTransactionLayerPacketHeaderCommonFmtEncoder
+from pvm.encoders.pcie_transaction_layer_packet_header_common_attr_encoder import PcieTransactionLayerPacketHeaderCommonAttrEncoder
