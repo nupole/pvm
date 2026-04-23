@@ -23,6 +23,6 @@ class TransactionSequence(pyuvm.uvm_sequence):
             if is_transaction:
                 number_of_transactions += 1
             await self.finish_item(sequence_item)
-            sequence_item = self._get_next_sequence_item(False)
-            await self.start_item(sequence_item)
-            await self.finish_item(sequence_item)
+        sequence_item = self._get_next_sequence_item(False)
+        await self.start_item(sequence_item)
+        await self.finish_item(sequence_item)
