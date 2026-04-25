@@ -1,3 +1,4 @@
 from pvm.interfaces.data_interface import DataInterface
 from pvm.interfaces.valid_data_interface import ValidDataInterface
+from pvm.interfaces.ready_valid_data_interface import ReadyValidDataInterface
 from pvm.interfaces.instruction_interface import InstructionInterface
