@@ -2,4 +2,5 @@ from pvm.sequences.transaction_sequence import TransactionSequence
 from pvm.sequences.data_sequence import IterableDataSequence, IndexedRandomWordSequence
 from pvm.sequences.ready_sequence import ReadySequence
 from pvm.sequences.valid_data_sequence import ValidDataSequence
+from pvm.sequences.ready_valid_data_sequence import TransmitterReceiverSequence
 from pvm.sequences.instruction_sequence import InstructionIteratorSequence
