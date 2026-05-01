@@ -9,6 +9,15 @@ class DataSequenceItem(pyuvm.uvm_sequence_item):
         super().__init__(name)
         self.data = data
 
+class RandomDataSequence(TransactionSequence):
+    def __init__(self, name, max_data, max_number_of_transactions = 10):
+        super().__init__(name, max_number_of_transactions = max_number_of_transactions)
+        self._max_data = max_data
+
+    def _get_next_sequence_item(self, is_transaction):
+        data = random.randint(0, self._max_data)
+        return DataSequenceItem('random_data_sequence_item', data)
+
 class IterableDataSequence(TransactionSequence):
     def __init__(self, name, iterable = []):
         super().__init__(name, max_number_of_transactions = len(iterable) - 1)
