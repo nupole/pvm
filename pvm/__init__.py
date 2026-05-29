@@ -1,3 +1,4 @@
+from pvm import protocols
 from pvm import sequences
 from pvm import interfaces
 from pvm import drivers
