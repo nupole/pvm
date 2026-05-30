@@ -4,3 +4,4 @@ from pvm.sequences.ready_sequence import ReadySequence
 from pvm.sequences.valid_data_sequence import ValidDataSequence, RandomValidDataSequence
 from pvm.sequences.ready_valid_data_sequence import TransmitterReceiverSequence
 from pvm.sequences.instruction_sequence import InstructionIteratorSequence
+from pvm.sequences.ram_sequence import RandomRamSequence, IncrementingAddressRamSequence
